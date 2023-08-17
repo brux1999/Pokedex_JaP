@@ -1,0 +1,124 @@
+body {
+    font-family: 'Classic-gg';
+    background-color: #ea8484;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23ff0000' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    ;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Classic-gg';
+    src: url(./fonts/Early\ GameBoy.ttf) format('truetype');
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+    z-index: 999;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    margin-left: 20px;
+}
+
+#navbar li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+
+#navbar li a:hover {
+    background-color: red;
+    border-radius: 5px;
+}
+
+#busquedapm {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 30px;
+    margin-top: 70px;
+}
+
+#pokedex-title {
+    margin-top: 20px;
+    padding: 20px;
+    color: black;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+}
+
+.pokemon-id {
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.pokemon-card {
+    background-image: url(./img/fondocartas.jpg);
+    background-size: cover;
+    margin-top: 30px;
+    border: 1px solid black;
+    padding: 40px;
+    text-align: center;
+}
+
+.pokemon-image {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+#poke-input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#credits {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#btn-back {
+    margin-left: 90%;
+}
